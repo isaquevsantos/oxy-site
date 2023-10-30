@@ -10,6 +10,13 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+body {
+	background-color: #4A2196;
+}
+
+main {
+	margin: 80px;
+}
 /* Parte Sobre */
 .sobre {
 	background-color: #4A2196;
@@ -20,7 +27,7 @@
 }
 
 .sobre__texto {
-	margin: 80px;
+
 
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
@@ -87,5 +94,41 @@
 /* Parte Serviços */
 
 /* Parte Sobre Nós*/
+.sobre-nos {
 
+
+	display: flex;
+	height: 65vh;
+	width: 100%;
+	
+}
+
+.sobre-nos__container__titulo {
+	color: #ffffff;
+	font-size: 50px;
+}
+
+.sobre-nos__container__subtitulo {
+	text-align: left;
+	color: #ffffff;
+	font-size: 25px;
+}
+
+.sobre-nos__esquerda{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+
+	width: 50%;
+}
+
+.sobre-nos__img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 25px;
+
+	width: 50%;
+}
 /* Parte Sobre Nós*/
