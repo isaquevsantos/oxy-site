@@ -1,7 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	vertical-align: baseline;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 }
+
+/* Parte Sobre */
+.sobre {
+	background-color: #4A2196;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sobre__texto {
+	margin: 80px;
+
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+}
+/* Parte Sobre */
+
+/* Parte Serviços */
+.servicos {
+	padding: 10px;
+	background-color: #4A2196;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.servicos__titulo {
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+
+	font-size: 50px;
+}
+
+.servicos__tipos {
+	padding-top: 30px;
+
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+}
+
+.servicos__tipos__conj {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+	gap: 15px;
+}
+
+/* Buscar colocar sempre imagem 3x2 */
+.servicos__tipos__img{
+	width: 300px;
+	height: 200px;
+
+	border-radius: 15px;
+}
+/* Buscar colocar sempre imagem 3x2 */
+
+.servicos__tipos__titulo {
+	color: #ffffff;
+	font-size: 25px;
+}
+
+.servicos__tipos__subtitulo {
+	width: 320px;
+	color: #ffffff;
+
+	text-align: center;
+}
+/* Parte Serviços */
+
+/* Parte Sobre Nós*/
+
+/* Parte Sobre Nós*/
